@@ -13,7 +13,9 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
-
+  separado = num.toString();
+  var numero = separado.split("").reverse().join("") === num.toString(); 
+  return numero;
 }
 
 // No modifiques nada debajo de esta linea //
